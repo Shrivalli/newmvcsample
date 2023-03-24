@@ -13,6 +13,11 @@ namespace newmvcsample.Controllers
             _logger = logger;
         }
 
+        //new method added
+        public IActionResult Sample()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
